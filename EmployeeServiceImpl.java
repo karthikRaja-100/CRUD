@@ -96,7 +96,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             if (employeeDTO.getName() != null) {
                 employee.setName(employeeDTO.getName());
             }
-            if (employeeDTO.getAge() != null) {  // Corrected this line
+            if (employeeDTO.getAge() != null) {  
                 employee.setAge(employeeDTO.getAge());
             }
             if (employeeDTO.getSalary() != null && employeeDTO.getSalary() > 0) {
